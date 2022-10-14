@@ -1,0 +1,43 @@
+.why-maincontainer{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.505);
+    .why-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        min-height: 100vh;
+        background-image: url('../../assets/emile-guillemot-riF7ZcGPfKc-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: -1;
+    
+    }
+    h1{
+        text-align: center;
+        color: #ffff;
+        font-weight: bold;
+    }
+    .why-card{
+        border: none;
+        background: none;
+        text-align: center;
+        h5{
+            color: #FFEB3B;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        p{
+            color: #ffff;
+        }
+        
+    }
+}

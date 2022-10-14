@@ -1,0 +1,13 @@
+.section2-card{
+    transition: 250ms ease-out;
+    border: none;
+    &:hover{
+        transition: 250ms ease-in;
+        transform: translateY(-10px);
+
+    }
+    h5{
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+}

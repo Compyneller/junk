@@ -1,0 +1,28 @@
+.contact-us-container{
+    min-height: 70vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+    mix-blend-mode: darken;
+    background-color: black;
+    color: #ffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    video{
+        height: 70vh;
+        mix-blend-mode:screen;
+        
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 100;
+      
+        
+        
+    }
+}
